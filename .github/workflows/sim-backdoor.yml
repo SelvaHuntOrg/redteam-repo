@@ -1,0 +1,8 @@
+# AdvAgent simulation artifact - safe to delete
+name: sim-backdoor
+on: [push]
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "sim trigger CASL-94953"
